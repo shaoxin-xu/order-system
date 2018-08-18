@@ -44,6 +44,10 @@ image {
 .blue {
   color: #076eca !important;
 }
+.link {
+  color: #1089db !important;
+  text-decoration: underline;
+}
 input {
   display: inline-block;
 }
