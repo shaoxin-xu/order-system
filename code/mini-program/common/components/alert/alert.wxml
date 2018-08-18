@@ -1,0 +1,7 @@
+<view class='alert' id="alert" wx:if="{{isshow}}">
+  <view class="popup_bj" bind:tap='closealert'></view>
+  <view class='con' style="{{aStyle}}">
+  <view class='title'>{{title}}</view>
+  <slot></slot>
+  </view>
+</view>
