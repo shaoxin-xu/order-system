@@ -1,0 +1,1 @@
+<input class="extends-class" bindinput='inputHandler' type='digit' placeholder-class="a-ph-c"  placeholder='{{placeholder}}'></input>
