@@ -1,18 +1,20 @@
-import promisify from '../../utils/promisify';
+import promisify from '../../utils/promisify.js';
 
 export default {
+    authorize: promisify(wx.authorize),
+    getSetting: promisify(wx.getSetting),
+    openSetting: promisify(wx.openSetting),
     chooseImage: promisify(wx.chooseImage),
+    previewImage: promisify(wx.previewImage),
+    getImageInfo: promisify(wx.getImageInfo),
+    login: promisify(wx.login),
+    getUserInfo: promisify(wx.getUserInfo),
+    authorize: promisify(wx.authorize),
     setStorage: promisify(wx.setStorage),
     getStorage: promisify(wx.getStorage),
-    removeStorage: promisify(wx.removeStorage),
     clearStorage: promisify(wx.clearStorage),
-    getLocation: promisify(wx.getLocation),
-    chooseLocation: promisify(wx.chooseLocation),
-    showToast: promisify(wx.showToast),
     showModal: promisify(wx.showModal),
-    login: promisify(wx.login),
     checkSession: promisify(wx.checkSession),
-    getSetting: promisify(wx.getSetting),
-    authorize: promisify(wx.authorize),
-    getUserInfo: promisify(wx.getUserInfo),
+    showToast: promisify(wx.showToast),
+    makePhoneCall: promisify(wx.makePhoneCall)
 };
