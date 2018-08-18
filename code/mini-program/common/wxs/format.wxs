@@ -1,0 +1,32 @@
+var formatCount = function (num) {
+    if (!num) return 0;
+    if (num > 99) return '99+';
+    else return num;
+};
+var formatAmount = function (amount) {
+    if (!amount) return '0.00';
+    typeof amount == 'string' && (amount = parseInt(amount));
+    amount = amount / 100;
+    return amount.toFixed(2);
+};
+var formatAmountAbs = function (amount) {
+    if (!amount) return '0.00';
+    typeof amount == 'string' && (amount = parseInt(amount));
+    amount = Math.abs(amount) / 100;
+    return amount.toFixed(2);
+};
+var formatTo_ = function (str) {
+    if (!str) return '--';
+    return str;
+};
+var formatEmpty = function (str) {
+    if (str) return str;
+    else return '';
+};
+module.exports = {
+    formatCount: formatCount,
+    formatAmount: formatAmount,
+    formatAmountAbs: formatAmountAbs,
+    formatTo_: formatTo_,
+    formatEmpty: formatEmpty
+};
