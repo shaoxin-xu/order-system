@@ -178,15 +178,6 @@
   height: 120rpx;
   line-height: 120rpx;
 }
-.img {
-  width: 120rpx;
-  height: 120rpx;
-  margin-right: 20rpx;
-  display: inline-block;
-}
-.img-view {
-  width: calc(100% - 120rpx - 30rpx);
-}
 .ptb_10 {
   padding: 10rpx 0;
 }
