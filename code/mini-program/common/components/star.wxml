@@ -1,0 +1,11 @@
+<!-- <text class="star star-active">★</text>
+<text class="star star-active">★</text>
+<text class="star star-active">★</text>
+<text class="star">★</text>
+<text class="star">★</text> -->
+<!-- <text class="index < selectedCount ? 'star-active' : ''">★</text> -->
+<!-- <text class="star" wx:for="{{starCount}}" wx:key="{{index}}">★</text> -->
+<view class="container">
+  <view class="star {{index < selectedCount ? 'star-active' : ''}}" wx:for="{{starCount}}" 
+  wx:key="{{index}}" data-index="{{index}}" catch:tap="clickHandler">★</view>
+</view>

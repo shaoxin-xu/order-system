@@ -1,0 +1,31 @@
+.n-select {
+  color: #333;
+  width: 165rpx;
+  height: 80rpx;
+  font-size: 28rpx;
+  border-radius: 10rpx;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px rgba(214, 219, 226, 1) solid;
+}
+
+.n-selected {
+  color: #1089db;
+  position: relative;
+  border: 1px #1089db solid;
+}
+
+.n-selected image {
+  display: none;
+}
+
+.n-selected image {
+  display: block;
+  width: 44rpx;
+  height: 44rpx;
+  position: absolute;
+  right: 0rpx;
+  top: 0rpx;
+}

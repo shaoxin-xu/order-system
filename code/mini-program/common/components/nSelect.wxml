@@ -1,0 +1,4 @@
+<view class="n-select {{isSelected?'n-selected':''}}" bind:tap="tapHandler">
+  <slot></slot>
+  <image src="/common/images/u853.png"></image>
+</view>

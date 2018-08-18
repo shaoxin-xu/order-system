@@ -1,0 +1,5 @@
+<textarea hidden="{{!hideview}}" value="{{value}}" style="{{nStyle}}" placeholder-style="{{placeholderStyle}}" placeholderClass="{{placeholderClass}}" disabled="{{disabled}}" maxlength="{{maxlength}}" auto-focus="{{autoFocus}}" focus="{{focus}}" auto-height="{{autoHeight}}"
+  adjust-position="{{adjustPosition}}" bindfocus="focusHandler" bindblur="blurHandler" bindlinechange="lineChangeHandler" bindinput="inputHandler">
+</textarea>
+<view class='component_value_color n-textarea-view' style="{{nStyle}}" hidden="{{hideview}}" bindtap='getFocus' style='position:relative;z-index:9;word-break:break-all;{{value==""?"color:#b3b3b3;":""}}'>
+<text class="component_placeholder_color" hidden="{{value!=''}}">{{placeholder}}</text>{{valueCopy}}</view>

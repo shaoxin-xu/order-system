@@ -1,0 +1,3 @@
+<button wx:if="{{show}}" class="{{nClass}} extend-class">
+    <slot></slot>
+</button>

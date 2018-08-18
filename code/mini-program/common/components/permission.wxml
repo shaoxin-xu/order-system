@@ -1,0 +1,6 @@
+<block wx:if="{{!hasPermission}}">
+    <slot name="notPrmission"></slot>
+</block>
+<block wx:else>
+    <slot></slot>
+</block>

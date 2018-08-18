@@ -1,0 +1,7 @@
+<view class="n-ch" style="height: {{height}}; width: {{width}}" bind:tap="chooseHandler" wx:if="{{!url}}"></view>
+<view class="p-ch" style="height: {{height}}; width: {{width}}" wx:if="{{url}}">
+  <image src='{{url}}' style="height: {{height}}; width: {{width}}" bind:tap="previewHandler"></image>
+  <view wx:if="{{isRechoose}}" class="remove" bind:tap="remove">
+    <icon type="cancel"></icon>
+  </view>
+</view>

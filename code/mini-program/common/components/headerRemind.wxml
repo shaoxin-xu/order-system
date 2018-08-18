@@ -1,0 +1,8 @@
+<view class="remind-container extends-class clearfix">
+  <image src="../../../common/images/37767.png" class="icon fl" />
+  <view class="text fl">
+    <view class="view extends-class">
+      <slot></slot>
+    </view>
+  </view>
+</view>

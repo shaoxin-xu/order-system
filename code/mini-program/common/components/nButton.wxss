@@ -1,0 +1,30 @@
+.btn {
+  padding: 0 25rpx;
+  line-height: 42rpx;
+  background: #5bc240;
+  color: #fff;
+  display: inline-block;
+  font-size: 24rpx;
+  border-radius: 3px;
+}
+.b-btn {
+  color: #fff;
+  height: 88rpx;
+  font-size: 34rpx;
+  margin-top: 50rpx;
+  margin-left: 25rpx;
+  margin: 50rpx 25rpx 0rpx 25rpx;
+  background-color: rgba(91, 194, 64, 1);
+}
+.link {
+  color: #1089db !important;
+  text-decoration: underline;
+  display: inline-block;
+  width: auto;
+  border: none;
+  background: none;
+  font-size: 24rpx;
+}
+.link::after{
+  border: none;
+}

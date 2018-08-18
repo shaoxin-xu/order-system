@@ -1,0 +1,17 @@
+picker{
+  width:100%;  
+  color:#333;
+  height:60rpx;
+  line-height:60rpx;
+  border:1rpx #d6dbe2 solid;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.component_placeholder_color{
+  color: #808080!important;
+}
+.component_value_color{
+  color: #bdbdbd!important;
+}
