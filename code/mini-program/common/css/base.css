@@ -72,3 +72,11 @@ input {
   margin: 50rpx 25rpx 25rpx 25rpx;
   background-color: rgba(91, 194, 64, 1);
 }
+.popup_bj {
+  background: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
